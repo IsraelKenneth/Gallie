@@ -1,9 +1,9 @@
 import React, { useState } from 'react'
-import "./NavbarStyles.css"
+import "./HeaderStyles.css"
 import { Link } from 'react-router-dom'
 import MenuItems from './MenuItems'
 
-const Navbar = () => {
+const Header = () => {
 
 
     const [isToggled, setIsToggled] = useState(false);
@@ -51,4 +51,4 @@ const Navbar = () => {
     )
 }
 
-export default Navbar
+export default Header
