@@ -16,10 +16,12 @@
     z-index: 9999;
 }
 
+
 .navbar-logo,
 .navbar-logo a {
     color: #222;
     font-size: 2rem;
+    width: 180px;
     cursor: pointer;
     text-decoration: none;
 }

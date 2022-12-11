@@ -1,7 +1,11 @@
 import React, { useState } from 'react'
+import Navbar from 'react-bootstrap/Navbar';
+import { LinkContainer } from 'react-router-bootstrap'
 import "./HeaderStyles.css"
 import { Link } from 'react-router-dom'
 import MenuItems from './MenuItems'
+import Logo from "../assets/Gallie_logo.png"
+
 
 const Header = () => {
 
@@ -30,7 +34,9 @@ const Header = () => {
     return (
 
         <nav className="NavbarItems">
-            <h1 className='navbar-logo'> <a href='/'>Trippy</a></h1>
+            <LinkContainer to="/">
+                <Navbar.Brand ><img className='navbar-logo' src={Logo} alt='Gallie logo'></img></Navbar.Brand>
+            </LinkContainer>
             <div className='menu-icons' onClick={HandleClick}>
 
                 <i className={isToggled === false ? "fas fa-times" : 'fas fa-bars'}></i>
