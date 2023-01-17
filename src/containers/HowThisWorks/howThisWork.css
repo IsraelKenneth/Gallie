@@ -1,0 +1,101 @@
+.gallie__HowThisWork {
+    display: flex;
+    flex-direction: column;
+    padding: 0 2rem;
+}
+
+
+.gallie__HowThisWork-heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 0;
+}
+
+
+.gallie__HowThisWork-heading h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.7rem;
+    line-height: 40px;
+    font-weight: 800;
+}
+.gallie__HowThisWork-heading p {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: 600;
+    font-size: 1.15rem;
+    color: #0c0068;
+}
+.gallie__HowThisWork-head-text {
+    margin: 0 0 1rem;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: 700;
+    font-size: 1.4rem;
+}
+
+
+.gallie__HowThisWork-full {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.gallie__HowThisWork-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+}
+
+
+
+
+@media screen and (max-width: 850px) {
+    .gallie__HowThisWork-heading {
+        flex-direction: column;
+        align-items: center;
+        margin-top: -1.5rem;
+    }
+.gallie__HowThisWork-heading h2 {
+        font-size: 1.5rem;
+        }
+    .gallie__HowThisWork-heading p {
+        margin-top: 0;
+        font-size: 1rem;
+    }
+
+        .gallie__HowThisWork-full {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+        }
+
+                .gallie__HowThisWork-head-text {
+                    font-weight: 700;
+                    font-size: 1rem;}
+}
+
+@media screen and (max-width: 650px) {
+
+    /* Customizing feature component as per needs */
+    .gallie__HowThisWork-feature .gpt3__features-container__feature {
+        flex-direction: column;
+    }
+
+    /* Customizing feature component as per needs */
+    .gallie__HowThisWork-feature .gpt3__features-container_feature-text {
+        margin-top: 0.5rem;
+    }
+
+    .gallie__HowThisWork-heading h1 {
+        font-size: 28px;
+        line-height: 40px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+
+    /* Customizing feature component as per needs */
+    .gallie__HowThisWork-container .gpt3__features-container__feature {
+        margin: 1rem 0;
+        min-width: 100%;
+    }
+}
